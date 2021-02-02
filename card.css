@@ -5,7 +5,7 @@
     background-color: rgba(42,196,231,0.582);
     margin: 20px;
     padding: 20px;
-    border: 2px solid black;
+    border: 5px ridge #daa520;
     box-shadow: 0 7px 15px 0 rgba(0,0,0,0.609);
     display: inline-block;
     border-radius: 10px;
