@@ -1,5 +1,5 @@
 .card {
-    background-image: <iframe src="https://giphy.com/embed/cjojgtiigyloyCg3r9" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/space-clouds-nebulae-cjojgtiigyloyCg3r9">via GIPHY</a></p>;
+    background-image: url("cloudsgif.webp");
     height: 300px;
     width: 200px;
     background-color: rgba(42,196,231,0.582);
