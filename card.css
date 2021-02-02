@@ -1,1 +1,31 @@
+.card {
+    background-image: url("cloudsgif.webp");
+    height: 300px;
+    width: 200px;
+    background-color: rgba(42,196,231,0.582);
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    box-shadow: 0 7px 15px 0 rgba(0,0,0,0.609);
+    display: inline-block;
+    border-radius: 10px;
+}
+#name.inner {
+    font-size: medium;
+    font-weight: bold;
+}
+/*#name.card {
 
+}*/
+#name.image {
+    background-image: url(*);
+}
+.inner {
+    padding: 30px;
+}
+
+.image {
+    margin: 20px;
+    height: 40px;
+    width: 40px;
+}
