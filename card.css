@@ -9,6 +9,7 @@
     box-shadow: 0 7px 15px 0 rgba(0,0,0,0.609);
     display: inline-block;
     border-radius: 10px;
+    color: white;
 }
 #name.inner {
     font-size: medium;
