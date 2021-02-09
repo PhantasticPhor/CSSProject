@@ -59,6 +59,11 @@ h4 {
     margin:30px auto;
 }
 
+nav {
+  text-align: center;
+  margin: auto;
+}
+
 #banner {
     background-color:#3697CB;
     padding:1rem 1.5rem 0 1.5rem;
@@ -89,6 +94,7 @@ h4 {
     #banner nav li a:hover {
       background-color: #010E29
     }
+    
 
 #HomePage {
   background-color:#3697CB;
@@ -292,3 +298,48 @@ HEAD
   width:1200px;
   margin:1.5rem auto;
 }
+
+/* Card.css */
+
+.card {
+  background-image: url("cloudsgif.webp");
+  height: 300px;
+  width: 200px;
+  background-color: rgba(42,196,231,0.582);
+  margin: 20px;
+  padding: 20px;
+  border: 5px ridge rgb(218, 165, 32);
+  box-shadow: 0 7px 15px 0 rgba(0,0,0,0.609);
+  display: inline-block;
+  border-radius: 10px;
+  color: white;
+}
+.inner {
+  padding: 10px;
+  font-size: large;
+  font-weight: bold;
+  color: whitesmoke;
+  background-color: rgba(218, 165, 32, 0.25);
+  border: 5px solid rgba(0,0,0,0.609);
+}
+
+.image {
+  margin: 20px;
+  height: 40px;
+  width: 40px;
+}
+
+/*----------------------*/
+
+
+.profilepic1 {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.profilepic1 a:hover {
+    
+
+}
+
