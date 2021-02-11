@@ -47,7 +47,16 @@ h4 {
 
  #maxP p{
    font-family:monospace;
+   background-color: rgba(0, 0, 0, 0.425);
+   color: white;
+   font-size: 18px;
  }
+
+ #maxP h2{
+   background-color:rgba(0, 0, 0, 0.425) ;
+   color: white;
+   padding: 20px;
+ } 
 
  em {
    color: #FCE694;
@@ -57,6 +66,15 @@ h4 {
    padding-bottom:100px;
  }
 
+ #maxFooter footer{
+   background-color:rgba(0, 0, 0, 0.425) ;
+ }
+
+ #maxfoot p{
+   text-align: left;
+   font-size: 13px;
+   color: white;
+ }
 /* Page Layout */
 #Page {
     width:960px;
@@ -271,6 +289,13 @@ HEAD
   padding: 20px 0 0 0;
   float: left;
      
+}
+
+#maxIMG.torchImgSize{
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  float: left
 }
 
 .torchImgSizeRight {
