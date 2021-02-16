@@ -147,7 +147,7 @@ nav {
 }
 #navmenu ul {
   list-style-type: none;
-  margin: 5px 10px 10px 10px;
+  margin: auto;
   overflow: hidden;
   background-color: #333333;
 }
