@@ -1,35 +1,40 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <title>nested html examples</title>
-        <link rel="stylesheet" href="main.css">
-    </head>
 
-    <body>
-        <div id="Page">
-            <header id="banner">
-                <h1>Nested Examples</h1>
-        <nav id="nav">
-            <ul>
-                <li><a href=index.html>Home</a></li>
-                <li><a href=attributes.html>Attributes Examples</a></li>
-                <li><a href=style.html>Style in HTML</a></li>
-                <li><a href=tags.html>Tag Examples</a></li>
-                <li><a href=Ariah.html>Ariah's Page</a></li>
-                <li><a href=Jason.html>Jason's Page</a></li>
-                <li><a href=Marc.html>Marc's Page</a></li>
-                <li><a href=Max.html>Max's Page</a></li>
-            </ul>
-        </nav>
+<head>
+    <meta charset="utf-8" />
+    <title>nested html examples</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div id="Page">
+        <header id="banner">
+            <h1>Nested Examples</h1>
+            <nav id="nav">
+                <ul>
+                    <li><a href=index.html>Home</a></li>
+                    <li><a href=attributes.html>Attributes Examples</a></li>
+                    <li><a href=style.html>Style in HTML</a></li>
+                    <li><a href=tags.html>Tag Examples</a></li>
+                    <li><a href=Ariah.html>Ariah's Page</a></li>
+                    <li><a href=Jason.html>Jason's Page</a></li>
+                    <li><a href=Marc.html>Marc's Page</a></li>
+                    <li><a href=Max.html>Max's Page</a></li>
+                </ul>
+            </nav>
         </header>
 
 
         <!-- Ariah's Nested Examples -->
-        <br >
+        <br>
         <h3>Ariah's Nested Examples</h3>
-        <br >
-        <i><p style="font-size:larger; padding-top:1px;"><abbr title="Deoxyribonucleic Acid"><b><em>DNA</em></b></abbr> carries genetic information that gives a living organism's cells instructions on how to <em>grow</em>, <em>reproduce</em> and <em>function</em>.</p></i>
+        <br>
+        <i>
+            <p style="font-size:larger; padding-top:1px;"><abbr title="Deoxyribonucleic Acid"><b><em>DNA</em></b></abbr>
+                carries genetic information that gives a living organism's cells instructions on how to <em>grow</em>,
+                <em>reproduce</em> and <em>function</em>.</p>
+        </i>
         <div id="ariahNested">
             <table style="width:60%">
                 <tr>
@@ -54,83 +59,114 @@
             <form>
                 <h3>Can you guess which nucleotide picture represents Cytosine? <br />
                     <input type="radio" id="thymine" name="nucleotide" value="thymine">
-                        <label for="thymine"><img src=Thymine.png style="height:200px;"></label>
+                    <label for="thymine"><img src=Thymine.png style="height:200px;"></label>
                     <input type="radio" id="adenine" name="nucleotide" value="adenine">
-                        <label for="adenine"><img src=Adenine.png style="height:200px;"></label>
+                    <label for="adenine"><img src=Adenine.png style="height:200px;"></label>
                     <input type="radio" id="cytosine" name="nucleotide" value="cytosine">
-                        <label for="cytosine"><img src=Cytosine.png style="height:200px;"></label>
+                    <label for="cytosine"><img src=Cytosine.png style="height:200px;"></label>
                 </h3>
             </form>
         </div>
 
-        <br >
+        <br>
         <footer>
             <div style="display:flex; align-items:center;">
-                <button type="button"><picture>
-                    <source srcset="dna.png" media="(max-width:900px)">
+                <button type="button">
+                    <picture>
+                        <source srcset="dna.png" media="(max-width:900px)">
                         <img src="dna.png" alt="DNA" style="width:900px;">
-                </picture></button>
+                    </picture>
+                </button>
             </div>
         </footer>
-        <br >
+        <br>
 
         <!--Marc's Nested Examples-->
         <div style="text-align: center;">
             <h2 class="headsize3">
-                <br> <font color = "#000000"> Marc </font> the
-                    <b> <font color = "red">Mc</font><font color = "yellow">Rib&trade; </font></b> <u> Ambassador</u>
+                <br>
+                <font color="#000000"> Marc </font> the
+                <b>
+                    <font color="red">Mc</font>
+                    <font color="yellow">Rib&trade; </font>
+                </b> <u> Ambassador</u>
                 <br>
                 <br>
-                    Finely crafted nested<sub>nested<sub>nested<sub>nested</sub><sup id="tagsize"> TAGS</sup> 
-                <br>
-                    <img class="imgsize2" src="mcrib.gif" alt="please">
-             </h2>
+                Finely crafted nested<sub>nested<sub>nested<sub>nested</sub><sup id="tagsize"> TAGS</sup>
+                        <br>
+                        <img class="imgsize2" src="mcrib.gif" alt="please">
+            </h2>
         </div>
 
-        <div> 
+        <div>
             <h2 class="headsize3">What is your favorite sandwich?
                 <ol>
-                    <li><q><p class="headsize2">You know what to pick <sub><font color ="red">-Napolean Bonaparte</font></sub></p></q></li>
+                    <li><q>
+                            <p class="headsize2">You know what to pick <sub>
+                                    <font color="red">-Napolean Bonaparte</font>
+                                </sub></p>
+                        </q></li>
                 </ol>
-                    <select name="favorite sandwich" id="favorite sandwich" style="max-width: 90%;"> favorite
-                        <option value="N/A">McNothing</option>
-                        <option value="noRib">Mcrib without the Rib</option>
-                        <option value="mcrib">McRib With Everything</option>
-                        <option value="mcribP">McRib Without Pickles</option>
-                        <option value="mcribO">McRib Without Onions</option>
-                    </select>
+                <select name="favorite sandwich" id="favorite sandwich" style="max-width: 90%;"> favorite
+                    <option value="N/A">McNothing</option>
+                    <option value="noRib">Mcrib without the Rib</option>
+                    <option value="mcrib">McRib With Everything</option>
+                    <option value="mcribP">McRib Without Pickles</option>
+                    <option value="mcribO">McRib Without Onions</option>
+                </select>
                 <br>
                 <br>
             </h2>
         </div>
 
-        <!-- Jason's-->  <!-- padding added to ensure examples are below navigation bar - Ariah-->
-        <header style="padding:20px 0px 0px 0px"><a href= https://en.wikipedia.org/wiki/Don_Cheadle> <em><strong><h3><font color = "green">Vist my wiki!</font> </h3> </strong> </a></strong></em>
+        <!-- Jason's-->
+        <!-- padding added to ensure examples are below navigation bar - Ariah-->
+        <header style="padding:20px 0px 0px 0px"><a href=https://en.wikipedia.org/wiki/Don_Cheadle> <em><strong>
+                        <h3>
+                            <font color="green">Vist my wiki!</font>
+                        </h3>
+                    </strong> </a></strong></em>
 
-            
+
         </header>
-        <big><em><strong><b><h1>Hello There</h1></b></strong></em></big>
-        <h1><u class ="spelling error"><sub>"Firefox</sub><i><b>Microsoft Edge<sup><sup>2</sup>Google Chrome<sup>3</sup><sup>"</sup></sup></b></h1></u> 
-            
-            <footer><a href =https://www.youtube.com/watch?v=cPJUBQd-PNM><i><sup><u><q><em><strong><b><big> <h2><font color = "blue">H</font><font color = "green">i</font></h2></big></b></strong></em></q></u></sup></i></a></footer> <br>
-        </div>
-    
-        <!-- Max's -->
+        <big><em><strong><b>
+                        <h1>Hello There</h1>
+                    </b></strong></em></big>
+        <h1><u class="spelling error"><sub>"Firefox</sub><i><b>Microsoft Edge<sup><sup>2</sup>Google
+                            Chrome<sup>3</sup><sup>"</sup></sup></b></h1></u>
 
-        <h2 style = "text-align: center;"> 
-            *Learn more about some of the villians that we have taken on*
-              <ul>
-              <li><strong style="font-size: 20;"><a href = "https://en.wikipedia.org/wiki/Doctor_Doom">Dr.Doom</a></strong></li>
-              <li><strong style="font-size: 20;"><a href = "https://en.wikipedia.org/wiki/Galactus">Galactus</a></strong></li>
-              <li><strong style="font-size: 20;"><a href = "https://villains.fandom.com/wiki/Annihilus">Annihilus</a></strong></li>
-              <li><strong style="font-size: 20;"><a href = "https://en.wikipedia.org/wiki/Puppet_Master_(Marvel_Comics)">Puppet Master</a></strong></li>
-              <li><strong style="font-size: 20;"><a href = "https://en.wikipedia.org/wiki/Molecule_Man">Molecule Man</a></strong></li>
-              <li><strong style="font-size: 20;"><a href = "https://en.wikipedia.org/wiki/Super-Skrull">Super-Skrull</a></strong></li>
-              </ul>
-        </h2>
+        <footer><a href=https://www.youtube.com/watch?v=cPJUBQd-PNM><i><sup><u><q><em><strong><b><big>
+                                                <h2>
+                                                    <font color="blue">H</font>
+                                                    <font color="green">i</font>
+                                                </h2>
+                                            </big></b></strong></em></q></u></sup></i></a></footer> <br>
+    </div>
 
-            <br>
-            <br>
+    <!-- Max's -->
 
-    </body>
+    <h2 style="text-align: center;">
+        *Learn more about some of the villians that we have taken on*
+        <ul>
+            <li><strong style="font-size: 20;"><a href="https://en.wikipedia.org/wiki/Doctor_Doom">Dr.Doom</a></strong>
+            </li>
+            <li><strong style="font-size: 20;"><a href="https://en.wikipedia.org/wiki/Galactus">Galactus</a></strong>
+            </li>
+            <li><strong style="font-size: 20;"><a
+                        href="https://villains.fandom.com/wiki/Annihilus">Annihilus</a></strong></li>
+            <li><strong style="font-size: 20;"><a
+                        href="https://en.wikipedia.org/wiki/Puppet_Master_(Marvel_Comics)">Puppet Master</a></strong>
+            </li>
+            <li><strong style="font-size: 20;"><a href="https://en.wikipedia.org/wiki/Molecule_Man">Molecule
+                        Man</a></strong></li>
+            <li><strong style="font-size: 20;"><a
+                        href="https://en.wikipedia.org/wiki/Super-Skrull">Super-Skrull</a></strong></li>
+        </ul>
+    </h2>
+
+    <br>
+    <br>
+
+</body>
+
 </html>
