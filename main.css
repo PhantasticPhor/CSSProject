@@ -253,8 +253,15 @@ th, td {
   font-size: 20;
   text-indent: 2.0em;
   padding: 10px 0;
-  text-align: left;
-     
+  text-align: left;  
+}
+
+#wrap {
+  background-color: #F6EDA9;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #333333;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
 }
 
 .imgsize {
