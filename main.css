@@ -284,6 +284,11 @@ th, td {
   float: right;
      
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .imgsize2 {
   width: 480px;
