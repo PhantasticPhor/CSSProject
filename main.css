@@ -1,4 +1,6 @@
 
+/* main style guidelines */
+
 html {
     background-color:#03496E;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -45,6 +47,19 @@ h4 {
      padding: 5rem 0;
  }
 
+ #maxP p{
+   font-family:monospace;
+   background-color: rgba(0, 0, 0, 0.425);
+   color: white;
+   font-size: 18px;
+ }
+
+ #maxP h2{
+   background-color:rgba(0, 0, 0, 0.425) ;
+   color: white;
+   padding: 20px;
+ } 
+
  em {
    color: #FCE694;
  }
@@ -53,6 +68,15 @@ h4 {
    padding-bottom:100px;
  }
 
+ #maxFooter footer{
+   background-color:rgba(0, 0, 0, 0.425) ;
+ }
+
+ #maxfoot p{
+   text-align: left;
+   font-size: 13px;
+   color: white;
+ }
 /* Page Layout */
 #Page {
     width:960px;
@@ -66,9 +90,9 @@ nav {
 
 #banner {
     background-color:#3697CB;
-    padding:1rem 1.5rem 0 1.5rem;
+    padding-top:2%;
     margin-bottom:1.5rem;
-    height:100px;
+    height:5%;
 }
 
     #banner nav ul {
@@ -94,7 +118,12 @@ nav {
     #banner nav li a:hover {
       background-color: #010E29
     }
-    
+ 
+.phantastickBanner {
+  max-width:1200px;
+  width: auto;
+  /* original img source: https://www.popshopguide.com/funko-pop-licenses/pop-marvel/fantastic-four/ */
+}    
 
 #HomePage {
   background-color:#3697CB;
@@ -125,7 +154,7 @@ nav {
 }
 #navmenu ul {
   list-style-type: none;
-  margin: 5px 10px 10px 10px;
+  margin: auto;
   overflow: hidden;
   background-color: #333333;
 }
@@ -224,8 +253,15 @@ th, td {
   font-size: 20;
   text-indent: 2.0em;
   padding: 10px 0;
-  text-align: left;
-     
+  text-align: left;  
+}
+
+#wrap {
+  background-color: #F6EDA9;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #333333;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
 }
 
 .imgsize {
@@ -267,6 +303,13 @@ HEAD
   padding: 20px 0 0 0;
   float: left;
      
+}
+
+#maxIMG.torchImgSize{
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  float: left
 }
 
 .torchImgSizeRight {
@@ -342,4 +385,38 @@ HEAD
     
 
 }
+
+/* Ariah's css */
+
+.riaHTML {
+  background-color:#BB7E3F;
+  width:100%;
+  height:100%;
+}
+
+.riaBody {
+  background-color:#F49849;
+}
+
+.riaPage {
+  background-color:#BB7E3F;
+}
+
+#riaBanner {
+  background-color:#F49849;
+}
+
+.riaMain {
+  text-align:center; 
+  font-size: 20px; 
+  margin-left:90px; 
+  margin-right: 90px;
+}
+
+.riaImage {
+  width: 60%; 
+  height: 60%; 
+  margin-left:-10px;
+}
+
 
