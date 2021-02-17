@@ -28,6 +28,14 @@ h2 {
   line-height:2rem;
 }
 
+.paddedh2 {
+  padding-top: 10px;
+}
+
+.extraPadingh2 {
+  padding-top: 40px;
+}
+
 h3 {
   text-align:center;
   padding-top:30px;
