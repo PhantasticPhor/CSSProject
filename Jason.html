@@ -33,18 +33,20 @@
   height: 100px;
   
   background-color: red;
-  position: reverse;
+  position: relative;
   animation-name: example;
-  animation-duration: 4s;
+  animation-duration: 8s;
   animation-name: About Jason Tipp ;
   animation-iteration-count: infinite;
+  animation-direction: alternate;
  
   
       }
       
       @keyframes example {
         from{left:0px}
-        to{left: 1000px;}
+        to{left: 1000px}
+        
   0%   {background-color: red;}
   25%  {background-color: yellow;}
   50%  {background-color: blue;}
