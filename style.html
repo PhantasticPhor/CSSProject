@@ -6,8 +6,13 @@
     <style>
 
         #box-container {
-            display: flex;
+            display:flex;
             height: 200px;
+        }
+
+        #infoContainer {
+            display:flex;
+            height: auto;
         }
 
         #box-1 {
@@ -19,14 +24,14 @@
             height: 35%;
         }
 
-        
 
-        .Max {
-            border-radius: 45%;
+        .Pics {
+            border-radius: 50%;
             height: 250px;
             width: 250px;
+            float: left;
         }
-        .Max:hover{
+        .Pics:hover{
             animation-name: imgAn;
             animation-duration: 800ms;
             animation-fill-mode: forwards;
@@ -35,8 +40,16 @@
 
         @keyframes imgAn {
             100%{
-                border-radius: 10%;
+                border-radius: 15%;
             }
+        }
+
+        .StyleMaxText {
+            color: white;
+            font-size: 18px;
+            text-align: left;
+            text-indent: 2.0em;
+            padding: 10px;
         }
 
     </style>
@@ -62,23 +75,30 @@
                 <li><a href=Max.html>Max's Page</a></li>
             </ul>
         </nav>
+        </div>
         </header>
 
         <div id = "box-container">
-            <div id="box-1"></div>
-            
+            <div id="box-1"></div>        
         </div>
 
-        <div>
-            <img src="IMG_2225 (1).png" alt="Max" class = "Max">
-            
+        <div id="infoContainer">
+            <img src="IMG_2225 (1).png" alt="Max" class = "Pics">
+            <p class="StyleMaxText">This is a test and I want to see if this works</p>
         </div>
 
-      
-            
-       
+        <br>
+        <hr>
+        <br>
 
+        <div id="inforContainer">
+            <img src="armyRia.jpg" alt="Ariah" class="Pics">
+            <p class="StyleMaxText">This is another test</p>
+        </div>
 
+        <br>
+        <hr>
+        <br>
 
     </body>
 </html>
