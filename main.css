@@ -188,7 +188,7 @@ nav {
 }
 
 #noli {
-  list style: decimal-leading-zero;
+  list-style: decimal-leading-zero;
   font-size: 5rem;
 }
 
