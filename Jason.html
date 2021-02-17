@@ -31,21 +31,27 @@
       font-size: 25px;
         width: 200px;
   height: 100px;
+  
   background-color: red;
-  position: relative;
+  position: reverse;
   animation-name: example;
   animation-duration: 4s;
   animation-name: About Jason Tipp ;
   animation-iteration-count: infinite;
+ 
+  
       }
+      
       @keyframes example {
-        0%   {background-color:red; left:0px; top:0px;}
-  25%  {background-color:yellow; left:200px; top:0px;}
-  50%  {background-color:blue; left:200px; top:200px;}
-  75%  {background-color:green; left:0px; top:200px;}
-  100% {background-color:red; left:0px; top:0px;}
+        from{left:0px}
+        to{left: 1000px;}
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
 }
-img.a {
+        
+.center {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -136,9 +142,8 @@ img.a {
 <div id="div" class="c">About Me</div>
   <!-- <h1><b>About Jason</b></h1> -->
 </div>
-<div class = "b">
-<img src="Jason.jpg" height="300" width="200"> 
-</div>
+<img src="Jason.jpg" height="300" width="200" class="center"> 
+
 <p class = "p1">My name is Jason Tipp. I am a 2nd year GIMM student. I was born in Chicago then moved to Kirkland Washington when I was 3. Some of my favorite activities are skiing and playing tennis. 
 Both of which I also started at the age of 3. I love the outdoors, but I have a huge passion for video games! I think this love started when I got lego star wars for the game cube. Then getting Lego Starwars the Complete Saga changed my world!
 I remember my friends and I would come over to my house and just play it for hours and hours. I would later get more and more invested into video games. I would watch people play these games on YouTube. I really enjoy it and got a lot of laughes out of them!
