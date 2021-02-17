@@ -13,6 +13,54 @@
       .p1 {
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       }
+    
+         div.a{
+           float: left;
+         }
+         div.b{
+           float:center;
+         }
+
+         .p1{
+           font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+           font-size: large;
+         }
+         hr{
+           height: 2px;
+           background-color: #0000ff;
+           border: none;
+         }
+      div.c{
+      text-align: center;
+      font-weight: bold;
+      font-size: 25px;
+      border-radius: 10px;
+        width: 200px;
+  height: 100px;
+  
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 8s;
+  animation-name: About Jason Tipp ;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+ 
+  
+      }
+      
+      @keyframes example {
+        from{left:0px}
+        to{left: 1000px}
+        
+  0%   {background-color: red;}
+  25%  {background-color: rgb(0, 255, 115);}
+  50%  {background-color: blue;}
+   
+}
+        
+
+}
 
       ul {
         list-style-type: none;
@@ -70,67 +118,7 @@
         <title>jason's page</title>
         <link rel="stylesheet" href="main.css">
       
-       <style>
-         div.a{
-           float: left;
-         }
-         div.b{
-           float:center;
-         }
-
-         .p1{
-           font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-           font-size: large;
-         }
-         
-            ul {
-              list-style-type: none;
-              margin: 0;
-              padding: 0;
-              overflow: hidden;
-              background-color: #333333;
-            }
-            
-            li {
-              float: left;
-            }
-            
-            li a {
-              display: block;
-              color: white;
-              text-align: center;
-              padding: 16px;
-              text-decoration: none;
-            }
-            
-            li a:hover {
-              background-color: #111111;
-            }
-            </style> -
-    </head>
-   
-    <!-- Links to everyone-->
-    <nav id="nav">
-      <ul>
-          <li><a href=index.html>Home</a></li>
-          <li><a href=attributes.html>Attributes Examples</a></li>
-          <li><a href=nested.html>Nested Examples</a></li>>
-          <li><a href=style.html>Style in HTML</a></li>
-          <li><a href=tags.html>Tag Examples</a></li>
-          <li><a href=Jason.html>Jason's Page</a></li>
-          <li><a href=Marc.html>Marc's Page</a></li>
-          <li><a href=Max.html>Max's Page</a></li>
-      </ul>
-  </nav>
-   
-    <body> 
-
-
-<!--<h1 style="text-align:center;">Jason Tipp</h1>-->
-<h1 style= "text-align: center;"> <font color = "blue">  Mister Fantastic </font> <br> <br> 
-
-<img src="mrFantasic.jpg" height="300" width="400"> </h1> 
-<br>
+     
 <head>
 <h1 style="text-align: left ;";><b>About me!</b></h1>
 </head> 
@@ -155,12 +143,13 @@
 
     </body>
 <footer><a href= https://en.wikipedia.org/wiki/Mister_Fantastic> <h3><font color = "green">Vist my wiki!</font> </h3> </a></footer>
-<div class = "a">
-  <h1><b>About Jason</b></h1>
+<hr>
+
+<div id="div" class="c">About Me</div>
+  <!-- <h1><b>About Jason</b></h1> -->
 </div>
-<div class = "b">
-<img src="Jason.jpg" height="300" width="200"> 
-</div>
+<img src="Jason.jpg" height="300" width="200" class="center"> 
+
 <p class = "p1">My name is Jason Tipp. I am a 2nd year GIMM student. I was born in Chicago then moved to Kirkland Washington when I was 3. Some of my favorite activities are skiing and playing tennis. 
 Both of which I also started at the age of 3. I love the outdoors, but I have a huge passion for video games! I think this love started when I got lego star wars for the game cube. Then getting Lego Starwars the Complete Saga changed my world!
 I remember my friends and I would come over to my house and just play it for hours and hours. I would later get more and more invested into video games. I would watch people play these games on YouTube. I really enjoy it and got a lot of laughes out of them!
