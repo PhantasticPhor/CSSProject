@@ -15,22 +15,32 @@ body {
     max-width:1200px;
 }
 
+/*Max's ID*/
 #maxB {
   background-color: crimson;
 }
 
+/*Max's ID*/
 #maxHtmL{
   background-color: crimson;
 }
 
+/*Max's ID*/
 #maxPowers{
   font-size: 28px;
 }
 
+/*Max's ID*/
 #maxVillian{
   font-size: 20px;
 }
 
+/*Max's ID*/
+#maxLists{
+  text-align: left;
+}
+
+/*Max's ID*/
 .maxBanner{
   max-width: 1200px;
 }
@@ -85,6 +95,7 @@ h4 {
      padding: 5rem 0;
  }
 
+ /*Max's ID*/
  #maxP p{
    font-family:monospace;
    background-color: rgba(0, 0, 0, 0.425);
@@ -92,6 +103,7 @@ h4 {
    font-size: 18px;
  }
 
+ /*Max's ID*/
  #maxP h2{
    background-color:rgba(0, 0, 0, 0.425) ;
    color: white;
@@ -106,10 +118,12 @@ h4 {
    padding-bottom:100px;
  }
 
+ /*Max's ID*/
  #maxFooter footer{
    background-color:rgba(0, 0, 0, 0.425) ;
  }
 
+ /*Max's ID*/
  #maxfoot p{
    text-align: left;
    font-size: 13px;
@@ -385,6 +399,7 @@ th, td {
      
 }
 
+/*Max's ID*/
 #maxIMG.torchImgSize{
   width: 200px;
   height: 200px;
@@ -417,6 +432,7 @@ th, td {
      
 }
 
+/*Max's ID*/
 #TorchPage {
   width:1200px;
   margin:1.5rem auto;
