@@ -15,6 +15,26 @@ body {
     max-width:1200px;
 }
 
+#maxB {
+  background-color: crimson;
+}
+
+#maxHtmL{
+  background-color: crimson;
+}
+
+#maxPowers{
+  font-size: 28px;
+}
+
+#maxVillian{
+  font-size: 20px;
+}
+
+.maxBanner{
+  max-width: 1200px;
+}
+
 #styleBody {
   line-height: 1.4;
     background-color:#066DA5;
