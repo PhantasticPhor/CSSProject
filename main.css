@@ -187,10 +187,16 @@ nav {
 /* ----MARC STYLES---- */
 #navmenu {
   background-color: #F6EDA9;
+  border-color: #333333;
   padding:10px 10px 10px -10px;
   height:100px;
 
 }
+
+#navmenu h1 {
+  color: #333333;
+}
+
 #navmenu ul {
   list-style-type: none;
   margin: auto;
@@ -268,7 +274,7 @@ nav {
 }
 
 table, th, td {
-  border: 1px solid black;
+  border: 3px solid #333333;
   text-align: center;
 }
 th, td {
@@ -277,8 +283,9 @@ th, td {
 }
 
 .headsize {
-  color: white;
-  border-color: #F6EDA9;
+  color: #333333;
+  border-color: #333333;
+  background-color: #F6EDA9;
   border-width: 2px;
   border-style: solid;
   border: 10px 20px 10px 20px;
@@ -307,7 +314,7 @@ th, td {
 .navtext {
   font-size: 20;
   text-indent: 2.0em;
-  padding: 10px 0;
+  padding: 10px;
   margin: auto;
   text-align: left;  
 }
@@ -329,15 +336,14 @@ th, td {
   margin-bottom: 1.5rem;
   overflow: hidden;
   text-indent: 2.0em;
-  padding: 5px 5;
+  padding: 0 5px;
   text-align: justify; 
 }
 
 .imgsize {
-  font-size: 20;
   width: 307px;
   height: 582px;
-  padding: 20px 0;
+  padding: 20px;
   float: right;
      
 }
