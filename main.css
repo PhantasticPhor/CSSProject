@@ -7,6 +7,7 @@ html {
     font-size: 90%;
 }
 
+/*Ariah*/
 .htmlMain {
   background-image: url("purpGalaxy.gif");
   /* https://media3.giphy.com/media/3og0IV7MOCfnm85iRa/giphy.gif */
@@ -22,7 +23,14 @@ html {
 body {
     line-height: 1.4;
     background-color:rgba(6, 109, 165, 0.4);
-    margin:0px 50px 50px 150px;
+    margin:3.5vh 7% 20vh 7%;
+    max-width:1200px;
+}
+
+#Jbody {
+  line-height: 1.4;
+    background-color:rgba(6, 109, 165, 1);
+    margin:3.5vh 7% 20vh 7%;
     max-width:1200px;
 }
 
@@ -31,8 +39,62 @@ body {
   height: auto;
   width: 100%;
   margin: 0 auto;
+  padding-bottom:10vh
 }
 
+#bioAriah {
+  text-align:center;
+  font-size: 140%;
+  padding-bottom:5vh;
+  margin: 8vh 10vw 0 10vw;
+}
+
+#bioMarc {
+  text-align:center;
+  font-size: 140%;
+  padding-bottom:5vh;
+  margin: 8vh 10vw 0 10vw;
+}
+
+#bioMax {
+  text-align:center;
+  font-size: 140%;
+  padding-bottom:5vh;
+  margin: 8vh 10vw 0 10vw;
+}
+
+#bioJason {
+  text-align:center;
+  font-size: 140%;
+  padding-bottom:8vh;
+  margin: 8vh 10vw 0 10vw;
+}
+
+/* on landing page for team photos */
+/* 1 - bigger pics 2 - smaller up at top pics */
+.profilepic1 {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  opacity:75%;
+}
+
+.profilepic1:hover {
+  opacity:100%;
+  box-shadow: 0 20px 20px rgba(255, 255, 204,0.8), 0 6px 6px rgba(255, 255, 204,0.6);
+}
+
+.profilepic2 {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  opacity:75%;
+}
+
+.profilepic2:hover {
+  opacity:100%;
+  box-shadow: 0 20px 20px rgba(255, 255, 204,0.8), 0 6px 6px rgba(255, 255, 204,0.6);
+}
 
 #maxB {
   background-color: crimson;
@@ -76,6 +138,14 @@ h1 {
      font-weight:400;
      line-height:2rem;
  }
+
+.h1a {
+   text-align: center;
+   font-size: 4rem;
+   font-weight: 500;
+   line-height:2.5rem;
+   
+}
 
 /*Ariah's*/
 h2 {
@@ -156,6 +226,7 @@ h4 {
 nav {
   text-align: center;
   margin: auto;
+  justify-content:space-evenly;
 }
 
 #banner {
@@ -196,10 +267,12 @@ nav {
   height: auto;
   /*above three lines: needed to make banner responsive to webpage size*/
   /* original img source: https://www.popshopguide.com/funko-pop-licenses/pop-marvel/fantastic-four/ */
-}    
+}   
+
 
 #HomePage {
-  background-color:#3697CB;
+  background-color:rgba(54, 151, 203, 0.5);
+  
   padding:0px 10px 10px 30px;
 }
 
@@ -351,7 +424,7 @@ th, td {
   text-indent: 2.0em;
   padding: 10px 0;
   text-align: left;  
-  margin: auto;
+  margin: 0 3vw 10vh 3vw;
 }
 
 .navtext p {
@@ -495,18 +568,6 @@ th, td {
 
 /*----------------------*/
 
-/* on landing page for team photos */
-.profilepic1 {
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  opacity:75%;
-}
-
-.profilepic1:hover {
-  opacity:100%;
-  box-shadow: 0 20px 20px rgba(255, 255, 204,0.8), 0 6px 6px rgba(255, 255, 204,0.6);
-}
 
 /* Ariah's css */
 
@@ -611,7 +672,7 @@ th, td {
   font-size: 100px;
   margin-top: -80px;
   color: #000000;
-  animation: clobberin 15s steps(5) infinite;
+  animation: clobberin 15s steps(15) infinite;
 }
 
 @keyframes clobberin {
